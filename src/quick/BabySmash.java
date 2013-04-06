@@ -3,7 +3,16 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.table.*;
+/**
+Tushar Kapila
 
+open BSD licence
+
+2013
+Invite you to improve and add to this project.
+
+
+*/
 
 public class BabySmash extends JFrame{
 	boolean isFullScreen =false;
