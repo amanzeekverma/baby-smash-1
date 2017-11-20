@@ -10,7 +10,7 @@ ls
 sleep 2
 echo
 echo now compile
-javac -d bin -cp src src/*.java
+javac -target 1.7 -source 1.7 -d bin -cp src src/*.java
 cd bin
 jar -cm ../src/mani.m    *.class >../BabySmashApp.jar
 echo Done
