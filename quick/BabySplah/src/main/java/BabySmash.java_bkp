@@ -3,7 +3,6 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.table.*;
-import uk.co.caprica.vlcj.runtime.x.*;
 /**
 Tushar Kapila
 
@@ -20,16 +19,10 @@ public class BabySmash extends JFrame{
 	public static final String EXIT_STR =  "exitnow";
 	public static final String HLP_STR = "Baby smash. To exit, type ) :" + EXIT_STR;
 	Cntainer conty;
-        
+
+
 	public BabySmash (GraphicsDevice device){
 		super(device.getDefaultConfiguration());
-                Container c = getContentPane();
-                String osname = System.getProperty("os.name");
-                //OSNAME CHECK STARTS
-                if (osname.startsWith("Linux")){ //Covers Ubuntu and other X11 supported *nix
-                    setVisible(true);
-                    LibXUtil.setFullScreenWindow(SwingUtilities.getWindowAncestor(c), true); 
-                } else { //original code here.
 		boolean ss = true;
 		if(ss){
 			setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);//EXIT_ON_CLOSE
@@ -48,7 +41,7 @@ public class BabySmash extends JFrame{
 		    pack();
 		    setVisible(true);
 		}
-                } //OSNAME CHECK ENDS.
+		Container c = getContentPane();
 
 		//setContentPane(conty);
 		c.setLayout(null);
@@ -64,17 +57,10 @@ public class BabySmash extends JFrame{
 		setTitle(HLP_STR);
 
 		KeyBoardListen keys = new KeyBoardListen (EXIT_STR);
-		this.addKeyListener(keys);
-                b.addKeyListener(keys);
+		b.addKeyListener(keys);
 		JLabel lbl = new JLabel (HLP_STR);
 		c.add(lbl);
 		lbl.setBounds(20,55, 600,89);
-                
-                //Add mouse listener
-                MouseListen mouseL = new MouseListen();
-                this.addMouseListener(mouseL);
-                this.addMouseMotionListener(mouseL);
-
  	}
 
  public static void main(String[] args) {
@@ -87,4 +73,6 @@ public class BabySmash extends JFrame{
 
         }
     }
-}
+
+
+    }
