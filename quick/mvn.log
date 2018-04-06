@@ -1,7 +1,7 @@
 [1mApache Maven 3.5.2[m
 Maven home: /usr/share/maven
-Java version: 1.8.0_162, vendor: Oracle Corporation
-Java home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Java version: 9, vendor: Oracle Corporation
+Java home: /home/zeek/installed/jdk-9
 Default locale: en_US, platform encoding: UTF-8
 OS name: "linux", version: "4.13.0-37-generic", arch: "amd64", family: "unix"
 [[1;36mDEBUG[m] Created new class realm maven.api
@@ -347,7 +347,7 @@ OS name: "linux", version: "4.13.0-37-generic", arch: "amd64", family: "unix"
   <project default-value="${project}"/>
 </configuration>
 [[1;36mDEBUG[m] =======================================================================
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=1458250, ConflictMarker.markTime=548536, ConflictMarker.nodeCount=6, ConflictIdSorter.graphTime=819189, ConflictIdSorter.topsortTime=596541, ConflictIdSorter.conflictIdCount=4, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4759467, ConflictResolver.conflictItemCount=5, DefaultDependencyCollector.collectTime=37126169, DefaultDependencyCollector.transformTime=11282636}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=946767, ConflictMarker.markTime=500414, ConflictMarker.nodeCount=6, ConflictIdSorter.graphTime=686286, ConflictIdSorter.topsortTime=557072, ConflictIdSorter.conflictIdCount=4, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5066073, ConflictResolver.conflictItemCount=5, DefaultDependencyCollector.collectTime=45051593, DefaultDependencyCollector.transformTime=10547539}
 [[1;36mDEBUG[m] com:BabySplash:jar:rev1
 [[1;36mDEBUG[m]    uk.co.caprica:vlcj:jar:3.10.1:compile
 [[1;36mDEBUG[m]       net.java.dev.jna:jna:jar:4.1.0:compile
@@ -355,7 +355,7 @@ OS name: "linux", version: "4.13.0-37-generic", arch: "amd64", family: "unix"
 [[1;36mDEBUG[m]       org.slf4j:slf4j-api:jar:1.7.10:compile
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=701743, ConflictMarker.markTime=303407, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=390839, ConflictIdSorter.topsortTime=61465, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5615694, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=175232394, DefaultDependencyCollector.transformTime=7244285}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=744189, ConflictMarker.markTime=344748, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=364829, ConflictIdSorter.topsortTime=68665, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5057545, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=196578707, DefaultDependencyCollector.transformTime=6736535}
 [[1;36mDEBUG[m] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
 [[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
 [[1;36mDEBUG[m]    org.apache.maven:maven-project:jar:2.0.6:compile
@@ -396,7 +396,7 @@ OS name: "linux", version: "4.13.0-37-generic", arch: "amd64", family: "unix"
 [[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
 [[1;36mDEBUG[m]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
 [[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
-[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1b9e1916]
 [[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
 [[1;36mDEBUG[m]   (f) buildFilters = []
 [[1;36mDEBUG[m]   (f) escapeWindowsPaths = true
@@ -405,13 +405,13 @@ OS name: "linux", version: "4.13.0-37-generic", arch: "amd64", family: "unix"
 [[1;36mDEBUG[m]   (s) overwrite = false
 [[1;36mDEBUG[m]   (f) project = MavenProject: com:BabySplash:rev1 @ /home/zeek/git_repo/baby-smash-2/quick/pom.xml
 [[1;36mDEBUG[m]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/zeek/git_repo/baby-smash-2/quick/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
-[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@3aa3193a
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7308ffff
 [[1;36mDEBUG[m]   (f) supportMultiLineFiltering = false
 [[1;36mDEBUG[m]   (f) useBuildFilters = true
 [[1;36mDEBUG[m]   (s) useDefaultDelimiters = true
 [[1;36mDEBUG[m] -- end configuration --
-[[1;36mDEBUG[m] properties used {java.vendor=Oracle Corporation, env.IM_CONFIG_PHASE=1, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, env.PERL_MM_OPT=INSTALL_BASE=/home/zeek/perl5, env.QT_IM_MODULE=ibus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.Z_BIN=/home/zeek/ZeeKTerminal/bin, env.GTK2_MODULES=overlay-scrollbar, env.Z_SCRIPTS=/home/zeek/ZeeKTerminal/scripts, env.Z_DOC=/home/zeek/ZeeKTerminal/doc, os.name=Linux, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1009, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, env.PWD=/home/zeek/git_repo/baby-smash-2/quick, sun.desktop=gnome, env.PERL_MB_OPT=--install_base "/home/zeek/perl5", env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=gnome-, java.runtime.version=1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12, env.GTK_IM_MODULE=ibus, env.QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.UPSTART_EVENTS=xsession started, env.XDG_VTNR=7, env.DISPLAY=:0, user.name=zeek, env.QT4_IM_MODULE=xim, env._=/usr/bin/mvn, maven.build.version=Apache Maven 3.5.2, env.USER=zeek, env.SHELL=/bin/bash, env.DESKTOP_SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop, env.AMAN_TEST=OK, env.PATH=/home/zeek/perl5/bin:/home/zeek/bin:/home/zeek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zeek/ZeeKTerminal/bin:/home/zeek/ZeeKTerminal/scripts:/home/zeek/ZeeKTerminal/config, env.XDG_CURRENT_DESKTOP=Unity, user.language=en, env.XDG_SESSION_DESKTOP=ubuntu, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, env.UPSTART_JOB=unity7, java.version=1.8.0_162, user.timezone=, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-WVf0wm2YYS, sun.arch.data.model=64, env.COMPIZ_CONFIG_PROFILE=ubuntu, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=2, env.PERL_LOCAL_LIB_ROOT=/home/zeek/perl5, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/usr/share/maven/conf, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=52.0, env.GDMSESSION=ubuntu, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=US, env.GNOME_KEYRING_PID=, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, java.vm.info=mixed mode, env.LOGNAME=zeek, os.version=4.13.0-37-generic, env.AMAN_UTIL=/home/zeek/ZeeKTerminal, path.separator=:, java.vm.version=25.162-b12, env.UPSTART_INSTANCE=, env.LANGUAGE=en_US, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.Z_LIBS=/home/zeek/ZeeKTerminal/libs, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.SESSIONTYPE=gnome-session, env.XDG_SESSION_TYPE=x11, java.awt.printerjob=sun.print.PSPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.XMODIFIERS=@im=ibus, env.GDM_LANG=en_US, user.home=/home/zeek, env.JOB=unity-settings-daemon, env.OLDPWD=/home/zeek/git_repo/baby-smash-2/quick, java.specification.vendor=Oracle Corporation, env.CLASSPATH=:/home/zeek/ZeeKTerminal/bin:/home/zeek/ZeeKTerminal/libs:., env.VTE_VERSION=4205, env.WINDOWID=75497482, library.jansi.path=/usr/share/maven/lib/jansi-native, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= -X package, java.vm.vendor=Oracle Corporation, env.XDG_SEAT=seat0, maven.home=/usr/share/maven, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X package, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, env.XDG_SESSION_ID=c1, maven.version=3.5.2, env.QT_ACCESSIBILITY=1, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/home/zeek, java.io.tmpdir=/tmp, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=/home/zeek/git_repo/baby-smash-2/quick, env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, env.Z_LOG=/home/zeek/ZeeKTerminal/log, env.CLUTTER_IM_MODULE=xim, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.INSTANCE=, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, env.PERL5LIB=/home/zeek/perl5/lib/perl5, env.XDG_RUNTIME_DIR=/run/user/1000, env.Z_TMP=/home/zeek/ZeeKTerminal/tmp, user.dir=/home/zeek/git_repo/baby-smash-2/quick, env.SESSION=ubuntu, env.XAUTHORITY=/home/zeek/.Xauthority, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.Z_CONFIG=/home/zeek/ZeeKTerminal/config, env.GTK_MODULES=gail:atk-bridge:unity-gtk-module, line.separator=
-, java.vm.name=OpenJDK 64-Bit Server VM, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/zeek, file.encoding=UTF-8, env.COMPIZ_BIN_PATH=/usr/bin/, env.GPG_AGENT_INFO=/home/zeek/.gnupg/S.gpg-agent:0:1, java.specification.version=1.8, env.GNOME_KEYRING_CONTROL=, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, env.MAVEN_PROJECTBASEDIR=/home/zeek/git_repo/baby-smash-2/quick, env.LESSCLOSE=/usr/bin/lesspipe %s %s}
+[[1;36mDEBUG[m] properties used {env.Z_LOG=/home/zeek/ZeeKTerminal/log, env.TERM=xterm-256color, env.JOB=unity-settings-daemon, java.specification.version=9, sun.cpu.isalist=, env.Z_DOC=/home/zeek/ZeeKTerminal/doc, sun.arch.data.model=64, java.vendor.url=http://java.oracle.com/, env.UPSTART_EVENTS=xsession started, sun.boot.library.path=/home/zeek/installed/jdk-9/lib, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X package, jdk.debug=release, maven.version=3.5.2, java.specification.vendor=Oracle Corporation, java.home=/home/zeek/installed/jdk-9, env.QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.Z_BIN=/home/zeek/ZeeKTerminal/bin, env.Z_CONFIG=/home/zeek/ZeeKTerminal/config, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, java.runtime.version=9+181, env.PATH=/home/zeek/installed/jdk-9/bin/:/home/zeek/perl5/bin:/home/zeek/bin:/home/zeek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zeek/ZeeKTerminal/bin:/home/zeek/ZeeKTerminal/scripts:/home/zeek/ZeeKTerminal/config, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_SEAT=seat0, env.CLUTTER_IM_MODULE=xim, file.encoding=UTF-8, env.AMAN_TEST=OK, env._=/usr/bin/mvn, env.XDG_SESSION_DESKTOP=ubuntu, env.SHLVL=2, env.COMPIZ_CONFIG_PROFILE=ubuntu, java.io.tmpdir=/tmp, java.version=9, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, org.slf4j.simpleLogger.defaultLogLevel=debug, java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, java.vendor=Oracle Corporation, env.IM_CONFIG_PHASE=1, classworlds.conf=/usr/share/maven/bin/m2.conf, sun.io.unicode.encoding=UnicodeLittle, env.XAUTHORITY=/home/zeek/.Xauthority, env.UPSTART_INSTANCE=, sun.desktop=gnome, env.LANG=en_US.UTF-8, env.COMPIZ_BIN_PATH=/usr/bin/, env.SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop, user.timezone=, os.name=Linux, java.vm.specification.version=9, env.DISPLAY=:0, env.Z_SCRIPTS=/home/zeek/ZeeKTerminal/scripts, maven.compiler.source=1.7, user.home=/home/zeek, env.GNOME_KEYRING_CONTROL=, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1009, env.GPG_AGENT_INFO=/home/zeek/.gnupg/S.gpg-agent:0:1, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.LANGUAGE=en_US, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-WVf0wm2YYS, env.AMAN_UTIL=/home/zeek/ZeeKTerminal, path.separator=:, os.version=4.13.0-37-generic, env.Z_TMP=/home/zeek/ZeeKTerminal/tmp, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.SHELL=/bin/bash, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, env.GTK_MODULES=gail:atk-bridge:unity-gtk-module, env.VTE_VERSION=4205, os.arch=amd64, maven.multiModuleProjectDirectory=/home/zeek/git_repo/baby-smash-2/quick, env.DESKTOP_SESSION=ubuntu, env.MAVEN_PROJECTBASEDIR=/home/zeek/git_repo/baby-smash-2/quick, java.vm.info=mixed mode, env.USER=zeek, java.class.version=53.0, awt.toolkit=sun.awt.X11.XToolkit, sun.jnu.encoding=UTF-8, env.Z_LIBS=/home/zeek/ZeeKTerminal/libs, env.SESSIONTYPE=gnome-session, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/zeek, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.GNOME_KEYRING_PID=, maven.build.version=Apache Maven 3.5.2, maven.home=/usr/share/maven, env.GDMSESSION=ubuntu, file.separator=/, java.vm.compressedOopsMode=32-bit, env.GTK2_MODULES=overlay-scrollbar, line.separator=
+, env.PERL_MM_OPT=INSTALL_BASE=/home/zeek/perl5, env.UPSTART_JOB=unity7, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, env.GDM_LANG=en_US, env.PERL5LIB=/home/zeek/perl5/lib/perl5, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.WINDOWID=75497482, user.name=zeek, env.INSTANCE=, env.LOGNAME=zeek, env.XDG_VTNR=7, env.PERL_MB_OPT=--install_base "/home/zeek/perl5", env.PERL_LOCAL_LIB_ROOT=/home/zeek/perl5, env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, env.XDG_RUNTIME_DIR=/run/user/1000, env.XMODIFIERS=@im=ibus, sun.os.patch.level=unknown, maven.compiler.target=1.7, env.XDG_SESSION_TYPE=x11, library.jansi.path=/usr/share/maven/lib/jansi-native, env.OLDPWD=/home/zeek/git_repo/baby-smash-2/quick, env.PWD=/home/zeek/git_repo/baby-smash-2/quick, file.encoding.pkg=sun.io, env.LESSOPEN=| /usr/bin/lesspipe %s, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, env.HOME=/home/zeek, env.QT_IM_MODULE=ibus, java.vm.vendor=Oracle Corporation, env.CLASSPATH=:/home/zeek/ZeeKTerminal/bin:/home/zeek/ZeeKTerminal/libs:., maven.conf=/usr/share/maven/conf, sun.java.launcher=SUN_STANDARD, user.country=US, env.QT_ACCESSIBILITY=1, sun.cpu.endian=little, user.language=en, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.GTK_IM_MODULE=ibus, env.XDG_MENU_PREFIX=gnome-, java.runtime.name=Java(TM) SE Runtime Environment, env.XDG_SESSION_ID=c1, env.MAVEN_CMD_LINE_ARGS= -X package, java.vendor.url.bug=http://bugreport.java.com/bugreport/, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, user.dir=/home/zeek/git_repo/baby-smash-2/quick, env.QT4_IM_MODULE=xim, env.XDG_CURRENT_DESKTOP=Unity, java.vm.version=9+181}
 [[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [[1;36mDEBUG[m] resource with targetPath null
 directory /home/zeek/git_repo/baby-smash-2/quick/src/main/resources
@@ -421,7 +421,7 @@ includes []
 [[1;36mDEBUG[m] no use filter components
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=1140784, ConflictMarker.markTime=590314, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=451953, ConflictIdSorter.topsortTime=101594, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4119093, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=244284600, DefaultDependencyCollector.transformTime=6445027}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=1342321, ConflictMarker.markTime=470561, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=436335, ConflictIdSorter.topsortTime=112287, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4333640, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=310438844, DefaultDependencyCollector.transformTime=6733156}
 [[1;36mDEBUG[m] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
 [[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
 [[1;36mDEBUG[m]    org.apache.maven:maven-artifact:jar:2.0.9:compile
@@ -471,7 +471,7 @@ includes []
 [[1;36mDEBUG[m]   Included: commons-logging:commons-logging-api:jar:1.1
 [[1;36mDEBUG[m]   Included: com.google.collections:google-collections:jar:1.0
 [[1;36mDEBUG[m]   Included: junit:junit:jar:3.8.2
-[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1b9e1916]
 [[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
 [[1;36mDEBUG[m]   (f) basedir = /home/zeek/git_repo/baby-smash-2/quick
 [[1;36mDEBUG[m]   (f) buildDirectory = /home/zeek/git_repo/baby-smash-2/quick/target
@@ -490,13 +490,13 @@ includes []
 [[1;36mDEBUG[m]   (f) showDeprecation = false
 [[1;36mDEBUG[m]   (f) showWarnings = false
 [[1;36mDEBUG[m]   (f) skipMultiThreadWarning = false
-[[1;36mDEBUG[m]   (f) source = 1.5
+[[1;36mDEBUG[m]   (f) source = 1.7
 [[1;36mDEBUG[m]   (f) staleMillis = 0
-[[1;36mDEBUG[m]   (f) target = 1.5
+[[1;36mDEBUG[m]   (f) target = 1.7
 [[1;36mDEBUG[m]   (f) useIncrementalCompilation = true
 [[1;36mDEBUG[m]   (f) verbose = false
-[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@3aa3193a
-[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@3aa3193a
+[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@7308ffff
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7308ffff
 [[1;36mDEBUG[m] -- end configuration --
 [[1;36mDEBUG[m] Using compiler 'javac'.
 [[1;36mDEBUG[m] Source directories: [/home/zeek/git_repo/baby-smash-2/quick/src/main/java]
@@ -523,14 +523,14 @@ includes []
 [[1;36mDEBUG[m] Source roots:
 [[1;36mDEBUG[m]  /home/zeek/git_repo/baby-smash-2/quick/src/main/java
 [[1;36mDEBUG[m] Command line options:
-[[1;36mDEBUG[m] -d /home/zeek/git_repo/baby-smash-2/quick/target/classes -classpath /home/zeek/git_repo/baby-smash-2/quick/target/classes:/home/zeek/.m2/repository/uk/co/caprica/vlcj/3.10.1/vlcj-3.10.1.jar:/home/zeek/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/home/zeek/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/home/zeek/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar: -sourcepath /home/zeek/git_repo/baby-smash-2/quick/src/main/java: -g -nowarn -target 1.5 -source 1.5
+[[1;36mDEBUG[m] -d /home/zeek/git_repo/baby-smash-2/quick/target/classes -classpath /home/zeek/git_repo/baby-smash-2/quick/target/classes:/home/zeek/.m2/repository/uk/co/caprica/vlcj/3.10.1/vlcj-3.10.1.jar:/home/zeek/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/home/zeek/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/home/zeek/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar: -sourcepath /home/zeek/git_repo/baby-smash-2/quick/src/main/java: -s /home/zeek/git_repo/baby-smash-2/quick/target/generated-sources/annotations -g -nowarn -target 1.7 -source 1.7
 [[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
 [[1;36mDEBUG[m] incrementalBuildHelper#beforeRebuildExecution
 [[1;34mINFO[m] Compiling 5 source files to /home/zeek/git_repo/baby-smash-2/quick/target/classes
 [[1;36mDEBUG[m] incrementalBuildHelper#afterRebuildExecution
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1b9e1916]
 [[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
 [[1;36mDEBUG[m]   (f) buildFilters = []
 [[1;36mDEBUG[m]   (f) escapeWindowsPaths = true
@@ -539,13 +539,13 @@ includes []
 [[1;36mDEBUG[m]   (s) overwrite = false
 [[1;36mDEBUG[m]   (f) project = MavenProject: com:BabySplash:rev1 @ /home/zeek/git_repo/baby-smash-2/quick/pom.xml
 [[1;36mDEBUG[m]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/zeek/git_repo/baby-smash-2/quick/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
-[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@3aa3193a
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7308ffff
 [[1;36mDEBUG[m]   (f) supportMultiLineFiltering = false
 [[1;36mDEBUG[m]   (f) useBuildFilters = true
 [[1;36mDEBUG[m]   (s) useDefaultDelimiters = true
 [[1;36mDEBUG[m] -- end configuration --
-[[1;36mDEBUG[m] properties used {java.vendor=Oracle Corporation, env.IM_CONFIG_PHASE=1, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, env.PERL_MM_OPT=INSTALL_BASE=/home/zeek/perl5, env.QT_IM_MODULE=ibus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.Z_BIN=/home/zeek/ZeeKTerminal/bin, env.GTK2_MODULES=overlay-scrollbar, env.Z_SCRIPTS=/home/zeek/ZeeKTerminal/scripts, env.Z_DOC=/home/zeek/ZeeKTerminal/doc, os.name=Linux, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1009, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, env.PWD=/home/zeek/git_repo/baby-smash-2/quick, sun.desktop=gnome, env.PERL_MB_OPT=--install_base "/home/zeek/perl5", env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=gnome-, java.runtime.version=1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12, env.GTK_IM_MODULE=ibus, env.QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.UPSTART_EVENTS=xsession started, env.XDG_VTNR=7, env.DISPLAY=:0, user.name=zeek, env.QT4_IM_MODULE=xim, env._=/usr/bin/mvn, maven.build.version=Apache Maven 3.5.2, env.USER=zeek, env.SHELL=/bin/bash, env.DESKTOP_SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop, env.AMAN_TEST=OK, env.PATH=/home/zeek/perl5/bin:/home/zeek/bin:/home/zeek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zeek/ZeeKTerminal/bin:/home/zeek/ZeeKTerminal/scripts:/home/zeek/ZeeKTerminal/config, env.XDG_CURRENT_DESKTOP=Unity, user.language=en, env.XDG_SESSION_DESKTOP=ubuntu, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, env.UPSTART_JOB=unity7, java.version=1.8.0_162, user.timezone=, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-WVf0wm2YYS, sun.arch.data.model=64, env.COMPIZ_CONFIG_PROFILE=ubuntu, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=2, env.PERL_LOCAL_LIB_ROOT=/home/zeek/perl5, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/usr/share/maven/conf, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=52.0, env.GDMSESSION=ubuntu, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=US, env.GNOME_KEYRING_PID=, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, java.vm.info=mixed mode, env.LOGNAME=zeek, os.version=4.13.0-37-generic, env.AMAN_UTIL=/home/zeek/ZeeKTerminal, path.separator=:, java.vm.version=25.162-b12, env.UPSTART_INSTANCE=, env.LANGUAGE=en_US, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.Z_LIBS=/home/zeek/ZeeKTerminal/libs, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.SESSIONTYPE=gnome-session, env.XDG_SESSION_TYPE=x11, java.awt.printerjob=sun.print.PSPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.XMODIFIERS=@im=ibus, env.GDM_LANG=en_US, user.home=/home/zeek, env.JOB=unity-settings-daemon, env.OLDPWD=/home/zeek/git_repo/baby-smash-2/quick, java.specification.vendor=Oracle Corporation, env.CLASSPATH=:/home/zeek/ZeeKTerminal/bin:/home/zeek/ZeeKTerminal/libs:., env.VTE_VERSION=4205, env.WINDOWID=75497482, library.jansi.path=/usr/share/maven/lib/jansi-native, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= -X package, java.vm.vendor=Oracle Corporation, env.XDG_SEAT=seat0, maven.home=/usr/share/maven, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X package, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, env.XDG_SESSION_ID=c1, maven.version=3.5.2, env.QT_ACCESSIBILITY=1, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/home/zeek, java.io.tmpdir=/tmp, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=/home/zeek/git_repo/baby-smash-2/quick, env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, env.Z_LOG=/home/zeek/ZeeKTerminal/log, env.CLUTTER_IM_MODULE=xim, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.INSTANCE=, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, env.PERL5LIB=/home/zeek/perl5/lib/perl5, env.XDG_RUNTIME_DIR=/run/user/1000, env.Z_TMP=/home/zeek/ZeeKTerminal/tmp, user.dir=/home/zeek/git_repo/baby-smash-2/quick, env.SESSION=ubuntu, env.XAUTHORITY=/home/zeek/.Xauthority, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.Z_CONFIG=/home/zeek/ZeeKTerminal/config, env.GTK_MODULES=gail:atk-bridge:unity-gtk-module, line.separator=
-, java.vm.name=OpenJDK 64-Bit Server VM, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/zeek, file.encoding=UTF-8, env.COMPIZ_BIN_PATH=/usr/bin/, env.GPG_AGENT_INFO=/home/zeek/.gnupg/S.gpg-agent:0:1, java.specification.version=1.8, env.GNOME_KEYRING_CONTROL=, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, env.MAVEN_PROJECTBASEDIR=/home/zeek/git_repo/baby-smash-2/quick, env.LESSCLOSE=/usr/bin/lesspipe %s %s}
+[[1;36mDEBUG[m] properties used {env.Z_LOG=/home/zeek/ZeeKTerminal/log, env.TERM=xterm-256color, env.JOB=unity-settings-daemon, java.specification.version=9, sun.cpu.isalist=, env.Z_DOC=/home/zeek/ZeeKTerminal/doc, sun.arch.data.model=64, java.vendor.url=http://java.oracle.com/, env.UPSTART_EVENTS=xsession started, sun.boot.library.path=/home/zeek/installed/jdk-9/lib, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X package, jdk.debug=release, maven.version=3.5.2, java.specification.vendor=Oracle Corporation, java.home=/home/zeek/installed/jdk-9, env.QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.Z_BIN=/home/zeek/ZeeKTerminal/bin, env.Z_CONFIG=/home/zeek/ZeeKTerminal/config, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, java.runtime.version=9+181, env.PATH=/home/zeek/installed/jdk-9/bin/:/home/zeek/perl5/bin:/home/zeek/bin:/home/zeek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zeek/ZeeKTerminal/bin:/home/zeek/ZeeKTerminal/scripts:/home/zeek/ZeeKTerminal/config, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_SEAT=seat0, env.CLUTTER_IM_MODULE=xim, file.encoding=UTF-8, env.AMAN_TEST=OK, env._=/usr/bin/mvn, env.XDG_SESSION_DESKTOP=ubuntu, env.SHLVL=2, env.COMPIZ_CONFIG_PROFILE=ubuntu, java.io.tmpdir=/tmp, java.version=9, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, org.slf4j.simpleLogger.defaultLogLevel=debug, java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, java.vendor=Oracle Corporation, env.IM_CONFIG_PHASE=1, classworlds.conf=/usr/share/maven/bin/m2.conf, sun.io.unicode.encoding=UnicodeLittle, env.XAUTHORITY=/home/zeek/.Xauthority, env.UPSTART_INSTANCE=, sun.desktop=gnome, env.LANG=en_US.UTF-8, env.COMPIZ_BIN_PATH=/usr/bin/, env.SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop, user.timezone=, os.name=Linux, java.vm.specification.version=9, env.DISPLAY=:0, env.Z_SCRIPTS=/home/zeek/ZeeKTerminal/scripts, maven.compiler.source=1.7, user.home=/home/zeek, env.GNOME_KEYRING_CONTROL=, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1009, env.GPG_AGENT_INFO=/home/zeek/.gnupg/S.gpg-agent:0:1, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.LANGUAGE=en_US, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-WVf0wm2YYS, env.AMAN_UTIL=/home/zeek/ZeeKTerminal, path.separator=:, os.version=4.13.0-37-generic, env.Z_TMP=/home/zeek/ZeeKTerminal/tmp, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.SHELL=/bin/bash, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, env.GTK_MODULES=gail:atk-bridge:unity-gtk-module, env.VTE_VERSION=4205, os.arch=amd64, maven.multiModuleProjectDirectory=/home/zeek/git_repo/baby-smash-2/quick, env.DESKTOP_SESSION=ubuntu, env.MAVEN_PROJECTBASEDIR=/home/zeek/git_repo/baby-smash-2/quick, java.vm.info=mixed mode, env.USER=zeek, java.class.version=53.0, awt.toolkit=sun.awt.X11.XToolkit, sun.jnu.encoding=UTF-8, env.Z_LIBS=/home/zeek/ZeeKTerminal/libs, env.SESSIONTYPE=gnome-session, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/zeek, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.GNOME_KEYRING_PID=, maven.build.version=Apache Maven 3.5.2, maven.home=/usr/share/maven, env.GDMSESSION=ubuntu, file.separator=/, java.vm.compressedOopsMode=32-bit, env.GTK2_MODULES=overlay-scrollbar, line.separator=
+, env.PERL_MM_OPT=INSTALL_BASE=/home/zeek/perl5, env.UPSTART_JOB=unity7, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, env.GDM_LANG=en_US, env.PERL5LIB=/home/zeek/perl5/lib/perl5, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.WINDOWID=75497482, user.name=zeek, env.INSTANCE=, env.LOGNAME=zeek, env.XDG_VTNR=7, env.PERL_MB_OPT=--install_base "/home/zeek/perl5", env.PERL_LOCAL_LIB_ROOT=/home/zeek/perl5, env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, env.XDG_RUNTIME_DIR=/run/user/1000, env.XMODIFIERS=@im=ibus, sun.os.patch.level=unknown, maven.compiler.target=1.7, env.XDG_SESSION_TYPE=x11, library.jansi.path=/usr/share/maven/lib/jansi-native, env.OLDPWD=/home/zeek/git_repo/baby-smash-2/quick, env.PWD=/home/zeek/git_repo/baby-smash-2/quick, file.encoding.pkg=sun.io, env.LESSOPEN=| /usr/bin/lesspipe %s, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, env.HOME=/home/zeek, env.QT_IM_MODULE=ibus, java.vm.vendor=Oracle Corporation, env.CLASSPATH=:/home/zeek/ZeeKTerminal/bin:/home/zeek/ZeeKTerminal/libs:., maven.conf=/usr/share/maven/conf, sun.java.launcher=SUN_STANDARD, user.country=US, env.QT_ACCESSIBILITY=1, sun.cpu.endian=little, user.language=en, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.GTK_IM_MODULE=ibus, env.XDG_MENU_PREFIX=gnome-, java.runtime.name=Java(TM) SE Runtime Environment, env.XDG_SESSION_ID=c1, env.MAVEN_CMD_LINE_ARGS= -X package, java.vendor.url.bug=http://bugreport.java.com/bugreport/, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, user.dir=/home/zeek/git_repo/baby-smash-2/quick, env.QT4_IM_MODULE=xim, env.XDG_CURRENT_DESKTOP=Unity, java.vm.version=9+181}
 [[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [[1;36mDEBUG[m] resource with targetPath null
 directory /home/zeek/git_repo/baby-smash-2/quick/src/test/resources
@@ -555,7 +555,7 @@ includes []
 [[1;36mDEBUG[m] no use filter components
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1b9e1916]
 [[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
 [[1;36mDEBUG[m]   (f) basedir = /home/zeek/git_repo/baby-smash-2/quick
 [[1;36mDEBUG[m]   (f) buildDirectory = /home/zeek/git_repo/baby-smash-2/quick/target
@@ -573,19 +573,19 @@ includes []
 [[1;36mDEBUG[m]   (f) showDeprecation = false
 [[1;36mDEBUG[m]   (f) showWarnings = false
 [[1;36mDEBUG[m]   (f) skipMultiThreadWarning = false
-[[1;36mDEBUG[m]   (f) source = 1.5
+[[1;36mDEBUG[m]   (f) source = 1.7
 [[1;36mDEBUG[m]   (f) staleMillis = 0
-[[1;36mDEBUG[m]   (f) target = 1.5
+[[1;36mDEBUG[m]   (f) target = 1.7
 [[1;36mDEBUG[m]   (f) useIncrementalCompilation = true
 [[1;36mDEBUG[m]   (f) verbose = false
-[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@3aa3193a
-[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@3aa3193a
+[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@7308ffff
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7308ffff
 [[1;36mDEBUG[m] -- end configuration --
 [[1;36mDEBUG[m] Using compiler 'javac'.
 [[1;34mINFO[m] No sources to compile
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=653840, ConflictMarker.markTime=183180, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=375213, ConflictIdSorter.topsortTime=59238, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1964809, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=66666511, DefaultDependencyCollector.transformTime=3271841}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=692338, ConflictMarker.markTime=211919, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=364433, ConflictIdSorter.topsortTime=67240, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2245563, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=72477441, DefaultDependencyCollector.transformTime=3623410}
 [[1;36mDEBUG[m] org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4:
 [[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
 [[1;36mDEBUG[m]    org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile
@@ -626,7 +626,7 @@ includes []
 [[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.8
 [[1;36mDEBUG[m]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
 [[1;36mDEBUG[m]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1
-[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1b9e1916]
 [[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test' with basic configurator -->
 [[1;36mDEBUG[m]   (s) basedir = /home/zeek/git_repo/baby-smash-2/quick
 [[1;36mDEBUG[m]   (s) childDelegation = false
@@ -672,12 +672,12 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m]   (s) useUnlimitedThreads = false
 [[1;36mDEBUG[m]   (s) workingDirectory = /home/zeek/git_repo/baby-smash-2/quick
 [[1;36mDEBUG[m]   (s) project = MavenProject: com:BabySplash:rev1 @ /home/zeek/git_repo/baby-smash-2/quick/pom.xml
-[[1;36mDEBUG[m]   (s) session = org.apache.maven.execution.MavenSession@3aa3193a
+[[1;36mDEBUG[m]   (s) session = org.apache.maven.execution.MavenSession@7308ffff
 [[1;36mDEBUG[m] -- end configuration --
 [[1;34mINFO[m] No tests to run.
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=307331, ConflictMarker.markTime=132702, ConflictMarker.nodeCount=74, ConflictIdSorter.graphTime=167059, ConflictIdSorter.topsortTime=71560, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2020198, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=39892055, DefaultDependencyCollector.transformTime=2750547}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=247739, ConflictMarker.markTime=141580, ConflictMarker.nodeCount=74, ConflictIdSorter.graphTime=162387, ConflictIdSorter.topsortTime=73819, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1754936, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=35409663, DefaultDependencyCollector.transformTime=2434154}
 [[1;36mDEBUG[m] org.apache.maven.plugins:maven-jar-plugin:jar:2.4:
 [[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
 [[1;36mDEBUG[m]    org.apache.maven:maven-project:jar:2.0.6:compile
@@ -722,7 +722,7 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-io:jar:2.0.2
 [[1;36mDEBUG[m]   Included: commons-lang:commons-lang:jar:2.1
 [[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
-[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.4:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.4:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1b9e1916]
 [[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.4:jar' with basic configurator -->
 [[1;36mDEBUG[m]   (f) classesDirectory = /home/zeek/git_repo/baby-smash-2/quick/target/classes
 [[1;36mDEBUG[m]   (f) defaultManifestFile = /home/zeek/git_repo/baby-smash-2/quick/target/classes/META-INF/MANIFEST.MF
@@ -730,7 +730,7 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m]   (f) forceCreation = false
 [[1;36mDEBUG[m]   (f) outputDirectory = /home/zeek/git_repo/baby-smash-2/quick/target
 [[1;36mDEBUG[m]   (f) project = MavenProject: com:BabySplash:rev1 @ /home/zeek/git_repo/baby-smash-2/quick/pom.xml
-[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@3aa3193a
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7308ffff
 [[1;36mDEBUG[m]   (f) skipIfEmpty = false
 [[1;36mDEBUG[m]   (f) useDefaultManifestFile = false
 [[1;36mDEBUG[m] -- end configuration --
@@ -752,7 +752,7 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m] adding entry META-INF/maven/com/BabySplash/pom.properties
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-assembly-plugin:2.4.1:single[m [1m(make-assembly)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=781399, ConflictMarker.markTime=352509, ConflictMarker.nodeCount=256, ConflictIdSorter.graphTime=257824, ConflictIdSorter.topsortTime=99194, ConflictIdSorter.conflictIdCount=50, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4180506, ConflictResolver.conflictItemCount=125, DefaultDependencyCollector.collectTime=182620734, DefaultDependencyCollector.transformTime=5741645}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=653165, ConflictMarker.markTime=414347, ConflictMarker.nodeCount=256, ConflictIdSorter.graphTime=258524, ConflictIdSorter.topsortTime=99335, ConflictIdSorter.conflictIdCount=50, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3544796, ConflictResolver.conflictItemCount=125, DefaultDependencyCollector.collectTime=221273315, DefaultDependencyCollector.transformTime=5040656}
 [[1;36mDEBUG[m] org.apache.maven.plugins:maven-assembly-plugin:jar:2.4.1:
 [[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
 [[1;36mDEBUG[m]    org.apache.maven:maven-core:jar:2.2.1:compile
@@ -829,12 +829,12 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m]   Included: junit:junit:jar:3.8.1
 [[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
 [[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-repository-builder:jar:1.0-alpha-2
-[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-assembly-plugin:2.4.1:single from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-assembly-plugin:2.4.1, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-assembly-plugin:2.4.1:single from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-assembly-plugin:2.4.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@1b9e1916]
 [[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-assembly-plugin:2.4.1:single' with basic configurator -->
 [[1;36mDEBUG[m]   (s) appendAssemblyId = true
 [[1;36mDEBUG[m]   (s) mainClass = BabySmash
-[[1;36mDEBUG[m]   (s) manifest = org.apache.maven.archiver.ManifestConfiguration@35ee466f
-[[1;36mDEBUG[m]   (s) archive = org.apache.maven.archiver.MavenArchiveConfiguration@32e652b6
+[[1;36mDEBUG[m]   (s) manifest = org.apache.maven.archiver.ManifestConfiguration@61394494
+[[1;36mDEBUG[m]   (s) archive = org.apache.maven.archiver.MavenArchiveConfiguration@578a5ce8
 [[1;36mDEBUG[m]   (f) attach = true
 [[1;36mDEBUG[m]   (s) basedir = /home/zeek/git_repo/baby-smash-2/quick
 [[1;36mDEBUG[m]   (s) descriptorRefs = [jar-with-dependencies]
@@ -872,7 +872,7 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m]   (f) updateOnly = false
 [[1;36mDEBUG[m]   (f) useJvmChmod = false
 [[1;36mDEBUG[m]   (s) workDirectory = /home/zeek/git_repo/baby-smash-2/quick/target/assembly/work
-[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@3aa3193a
+[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@7308ffff
 [[1;36mDEBUG[m]   (f) project = MavenProject: com:BabySplash:rev1 @ /home/zeek/git_repo/baby-smash-2/quick/pom.xml
 [[1;36mDEBUG[m] -- end configuration --
 [[1;36mDEBUG[m] Before assembly is interpolated:
@@ -917,7 +917,7 @@ snapshots: [enabled => false, update => daily]
 
 
 
-[[1;36mDEBUG[m] All known ContainerDescriptorHandler components: [metaInf-services, plexus, metaInf-spring, file-aggregator]
+[[1;36mDEBUG[m] All known ContainerDescriptorHandler components: [plexus, metaInf-spring, metaInf-services, file-aggregator]
 [[1;36mDEBUG[m] Dependencies for project: com:BabySplash:jar:rev1 are:
 uk.co.caprica:vlcj:jar:3.10.1:compile
 [[1;36mDEBUG[m] Resolving project dependencies transitively.
@@ -934,6 +934,104 @@ o Runtime
 o Test
 o Provided
 o System
+[[1;36mDEBUG[m] Cannot find ArtifactResolver with hint: project-cache-aware
+[1;31morg.codehaus.plexus.component.repository.exception.ComponentLookupException[m: [1;31mjava.util.NoSuchElementException
+      role: org.apache.maven.artifact.resolver.ArtifactResolver
+  roleHint: project-cache-aware[m
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:267[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:243[m)
+    [1mat[m org.apache.maven.shared.repository.DefaultRepositoryAssembler.contextualize ([1mDefaultRepositoryAssembler.java:721[m)
+    [1mat[m org.eclipse.sisu.plexus.PlexusLifecycleManager.contextualize ([1mPlexusLifecycleManager.java:282[m)
+    [1mat[m org.eclipse.sisu.plexus.PlexusLifecycleManager.activate ([1mPlexusLifecycleManager.java:203[m)
+    [1mat[m org.eclipse.sisu.bean.BeanScheduler$Pending.activate ([1mBeanScheduler.java:156[m)
+    [1mat[m org.eclipse.sisu.bean.BeanScheduler$Activator.onProvision ([1mBeanScheduler.java:185[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:126[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:68[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:63[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:45[m)
+    [1mat[m com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call ([1mProviderToInternalFactoryAdapter.java:46[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.callInContext ([1mInjectorImpl.java:1103[m)
+    [1mat[m com.google.inject.internal.ProviderToInternalFactoryAdapter.get ([1mProviderToInternalFactoryAdapter.java:40[m)
+    [1mat[m com.google.inject.internal.SingletonScope$1.get ([1mSingletonScope.java:145[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToProviderAdapter.get ([1mInternalFactoryToProviderAdapter.java:41[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$2$1.call ([1mInjectorImpl.java:1016[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.callInContext ([1mInjectorImpl.java:1092[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$2.get ([1mInjectorImpl.java:1012[m)
+    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:81[m)
+    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:51[m)
+    [1mat[m org.eclipse.sisu.wire.EntryListAdapter$ValueIterator.next ([1mEntryListAdapter.java:111[m)
+    [1mat[m org.apache.maven.plugin.assembly.archive.DefaultAssemblyArchiver.createArchive ([1mDefaultAssemblyArchiver.java:179[m)
+    [1mat[m org.apache.maven.plugin.assembly.mojos.AbstractAssemblyMojo.execute ([1mAbstractAssemblyMojo.java:429[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:134[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:208[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:154[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:146[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:51[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:309[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:194[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:107[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:955[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:290[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:194[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:564[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:289[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:229[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:415[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:356[m)
+[1mCaused by[m: java.util.NoSuchElementException
+    [1mat[m java.util.Collections$EmptyIterator.next ([1mCollections.java:4197[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:263[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:243[m)
+    [1mat[m org.apache.maven.shared.repository.DefaultRepositoryAssembler.contextualize ([1mDefaultRepositoryAssembler.java:721[m)
+    [1mat[m org.eclipse.sisu.plexus.PlexusLifecycleManager.contextualize ([1mPlexusLifecycleManager.java:282[m)
+    [1mat[m org.eclipse.sisu.plexus.PlexusLifecycleManager.activate ([1mPlexusLifecycleManager.java:203[m)
+    [1mat[m org.eclipse.sisu.bean.BeanScheduler$Pending.activate ([1mBeanScheduler.java:156[m)
+    [1mat[m org.eclipse.sisu.bean.BeanScheduler$Activator.onProvision ([1mBeanScheduler.java:185[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:126[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:68[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:63[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:45[m)
+    [1mat[m com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call ([1mProviderToInternalFactoryAdapter.java:46[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.callInContext ([1mInjectorImpl.java:1103[m)
+    [1mat[m com.google.inject.internal.ProviderToInternalFactoryAdapter.get ([1mProviderToInternalFactoryAdapter.java:40[m)
+    [1mat[m com.google.inject.internal.SingletonScope$1.get ([1mSingletonScope.java:145[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToProviderAdapter.get ([1mInternalFactoryToProviderAdapter.java:41[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$2$1.call ([1mInjectorImpl.java:1016[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.callInContext ([1mInjectorImpl.java:1092[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$2.get ([1mInjectorImpl.java:1012[m)
+    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:81[m)
+    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:51[m)
+    [1mat[m org.eclipse.sisu.wire.EntryListAdapter$ValueIterator.next ([1mEntryListAdapter.java:111[m)
+    [1mat[m org.apache.maven.plugin.assembly.archive.DefaultAssemblyArchiver.createArchive ([1mDefaultAssemblyArchiver.java:179[m)
+    [1mat[m org.apache.maven.plugin.assembly.mojos.AbstractAssemblyMojo.execute ([1mAbstractAssemblyMojo.java:429[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:134[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:208[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:154[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:146[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:51[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:309[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:194[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:107[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:955[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:290[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:194[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:564[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:289[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:229[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:415[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:356[m)
 [[1;36mDEBUG[m] Processing DependencySet (output=/)
 [[1;36mDEBUG[m] Filtering dependency artifacts WITHOUT transitive dependency path information.
 [[1;36mDEBUG[m] Adding 5 dependency artifacts.
@@ -987,104 +1085,6 @@ none
 none
 
 [[1;36mDEBUG[m] Adding archived file-set in: /home/zeek/git_repo/baby-smash-2/quick/target/BabySplash-rev1.jar to archive location: 
-[[1;36mDEBUG[m] Cannot find ArtifactResolver with hint: project-cache-aware
-[1;31morg.codehaus.plexus.component.repository.exception.ComponentLookupException[m: [1;31mjava.util.NoSuchElementException
-      role: org.apache.maven.artifact.resolver.ArtifactResolver
-  roleHint: project-cache-aware[m
-    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:267[m)
-    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:243[m)
-    [1mat[m org.apache.maven.shared.repository.DefaultRepositoryAssembler.contextualize ([1mDefaultRepositoryAssembler.java:721[m)
-    [1mat[m org.eclipse.sisu.plexus.PlexusLifecycleManager.contextualize ([1mPlexusLifecycleManager.java:282[m)
-    [1mat[m org.eclipse.sisu.plexus.PlexusLifecycleManager.activate ([1mPlexusLifecycleManager.java:203[m)
-    [1mat[m org.eclipse.sisu.bean.BeanScheduler$Pending.activate ([1mBeanScheduler.java:156[m)
-    [1mat[m org.eclipse.sisu.bean.BeanScheduler$Activator.onProvision ([1mBeanScheduler.java:185[m)
-    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:126[m)
-    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:68[m)
-    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:63[m)
-    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:45[m)
-    [1mat[m com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call ([1mProviderToInternalFactoryAdapter.java:46[m)
-    [1mat[m com.google.inject.internal.InjectorImpl.callInContext ([1mInjectorImpl.java:1103[m)
-    [1mat[m com.google.inject.internal.ProviderToInternalFactoryAdapter.get ([1mProviderToInternalFactoryAdapter.java:40[m)
-    [1mat[m com.google.inject.internal.SingletonScope$1.get ([1mSingletonScope.java:145[m)
-    [1mat[m com.google.inject.internal.InternalFactoryToProviderAdapter.get ([1mInternalFactoryToProviderAdapter.java:41[m)
-    [1mat[m com.google.inject.internal.InjectorImpl$2$1.call ([1mInjectorImpl.java:1016[m)
-    [1mat[m com.google.inject.internal.InjectorImpl.callInContext ([1mInjectorImpl.java:1092[m)
-    [1mat[m com.google.inject.internal.InjectorImpl$2.get ([1mInjectorImpl.java:1012[m)
-    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:81[m)
-    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:51[m)
-    [1mat[m org.eclipse.sisu.wire.EntryListAdapter$ValueIterator.next ([1mEntryListAdapter.java:111[m)
-    [1mat[m org.apache.maven.plugin.assembly.archive.DefaultAssemblyArchiver.createArchive ([1mDefaultAssemblyArchiver.java:179[m)
-    [1mat[m org.apache.maven.plugin.assembly.mojos.AbstractAssemblyMojo.execute ([1mAbstractAssemblyMojo.java:429[m)
-    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:134[m)
-    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:208[m)
-    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:154[m)
-    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:146[m)
-    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
-    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
-    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:51[m)
-    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
-    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:309[m)
-    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:194[m)
-    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:107[m)
-    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:955[m)
-    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:290[m)
-    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:194[m)
-    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
-    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
-    [1mat[m sun.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
-    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:498[m)
-    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:289[m)
-    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:229[m)
-    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:415[m)
-    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:356[m)
-[1mCaused by[m: java.util.NoSuchElementException
-    [1mat[m java.util.Collections$EmptyIterator.next ([1mCollections.java:4189[m)
-    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:263[m)
-    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:243[m)
-    [1mat[m org.apache.maven.shared.repository.DefaultRepositoryAssembler.contextualize ([1mDefaultRepositoryAssembler.java:721[m)
-    [1mat[m org.eclipse.sisu.plexus.PlexusLifecycleManager.contextualize ([1mPlexusLifecycleManager.java:282[m)
-    [1mat[m org.eclipse.sisu.plexus.PlexusLifecycleManager.activate ([1mPlexusLifecycleManager.java:203[m)
-    [1mat[m org.eclipse.sisu.bean.BeanScheduler$Pending.activate ([1mBeanScheduler.java:156[m)
-    [1mat[m org.eclipse.sisu.bean.BeanScheduler$Activator.onProvision ([1mBeanScheduler.java:185[m)
-    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:126[m)
-    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:68[m)
-    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:63[m)
-    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:45[m)
-    [1mat[m com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call ([1mProviderToInternalFactoryAdapter.java:46[m)
-    [1mat[m com.google.inject.internal.InjectorImpl.callInContext ([1mInjectorImpl.java:1103[m)
-    [1mat[m com.google.inject.internal.ProviderToInternalFactoryAdapter.get ([1mProviderToInternalFactoryAdapter.java:40[m)
-    [1mat[m com.google.inject.internal.SingletonScope$1.get ([1mSingletonScope.java:145[m)
-    [1mat[m com.google.inject.internal.InternalFactoryToProviderAdapter.get ([1mInternalFactoryToProviderAdapter.java:41[m)
-    [1mat[m com.google.inject.internal.InjectorImpl$2$1.call ([1mInjectorImpl.java:1016[m)
-    [1mat[m com.google.inject.internal.InjectorImpl.callInContext ([1mInjectorImpl.java:1092[m)
-    [1mat[m com.google.inject.internal.InjectorImpl$2.get ([1mInjectorImpl.java:1012[m)
-    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:81[m)
-    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:51[m)
-    [1mat[m org.eclipse.sisu.wire.EntryListAdapter$ValueIterator.next ([1mEntryListAdapter.java:111[m)
-    [1mat[m org.apache.maven.plugin.assembly.archive.DefaultAssemblyArchiver.createArchive ([1mDefaultAssemblyArchiver.java:179[m)
-    [1mat[m org.apache.maven.plugin.assembly.mojos.AbstractAssemblyMojo.execute ([1mAbstractAssemblyMojo.java:429[m)
-    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:134[m)
-    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:208[m)
-    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:154[m)
-    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:146[m)
-    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
-    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
-    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:51[m)
-    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
-    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:309[m)
-    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:194[m)
-    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:107[m)
-    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:955[m)
-    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:290[m)
-    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:194[m)
-    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
-    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
-    [1mat[m sun.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
-    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:498[m)
-    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:289[m)
-    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:229[m)
-    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:415[m)
-    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:356[m)
 [[1;36mDEBUG[m] META-INF/MANIFEST.MF already added, skipping
 [[1;36mDEBUG[m] META-INF/MANIFEST.MF already added, skipping
 [[1;36mDEBUG[m] META-INF/MANIFEST.MF already added, skipping
@@ -2385,7 +2385,7 @@ none
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time: 4.048 s
-[[1;34mINFO[m] Finished at: 2018-04-06T15:24:46-04:00
-[[1;34mINFO[m] Final Memory: 20M/263M
+[[1;34mINFO[m] Total time: 4.661 s
+[[1;34mINFO[m] Finished at: 2018-04-06T15:41:54-04:00
+[[1;34mINFO[m] Final Memory: 19M/65M
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m

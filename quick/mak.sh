@@ -20,11 +20,13 @@ echo "tail mvn.log"
 tail mvn.log
 #javac -target 1.7 -source 1.7 -d bin -cp vlcj/target/classes:src src/*.java
 #cd bin
-#cd target
 #jar -cvm ../src/mani.m    *.class  -C ../vlcj/target/classes/ .>../BabySmashApp.jar
+echo "Full logs at mvn.log"
 echo Done
-echo "Execute java -jar target/
-cd ..
-echo Dir contents
-ls
+echo "copying jar-with-dependencies to current directory"
+cp target/*jar-with-dep* .
+echo "executable jar : "
+ls | grep *jar-with*
+echo
+echo
 
