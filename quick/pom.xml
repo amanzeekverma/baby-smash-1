@@ -4,7 +4,7 @@
   <groupId>com</groupId>
   <artifactId>BabySplash</artifactId>
   <packaging>jar</packaging>
-  <version>rev1</version>
+  <version>rev2</version>
   <name>BabySplash</name>
   <url>http://maven.apache.org</url>
 
