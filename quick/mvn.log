@@ -347,15 +347,16 @@ OS name: "linux", version: "4.13.0-38-generic", arch: "amd64", family: "unix"
   <project default-value="${project}"/>
 </configuration>
 [[1;36mDEBUG[m] =======================================================================
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=1200004, ConflictMarker.markTime=579555, ConflictMarker.nodeCount=6, ConflictIdSorter.graphTime=733914, ConflictIdSorter.topsortTime=550671, ConflictIdSorter.conflictIdCount=4, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4755327, ConflictResolver.conflictItemCount=5, DefaultDependencyCollector.collectTime=40678956, DefaultDependencyCollector.transformTime=10771410}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=1213110, ConflictMarker.markTime=417685, ConflictMarker.nodeCount=8, ConflictIdSorter.graphTime=616580, ConflictIdSorter.topsortTime=454063, ConflictIdSorter.conflictIdCount=5, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3433917, ConflictResolver.conflictItemCount=7, DefaultDependencyCollector.collectTime=51951161, DefaultDependencyCollector.transformTime=9088929}
 [[1;36mDEBUG[m] com:BabySplash:jar:rev1
 [[1;36mDEBUG[m]    uk.co.caprica:vlcj:jar:3.10.1:compile
 [[1;36mDEBUG[m]       net.java.dev.jna:jna:jar:4.1.0:compile
 [[1;36mDEBUG[m]       net.java.dev.jna:jna-platform:jar:4.1.0:compile
 [[1;36mDEBUG[m]       org.slf4j:slf4j-api:jar:1.7.10:compile
+[[1;36mDEBUG[m]    org.slf4j:slf4j-simple:jar:1.6.2:runtime
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=796425, ConflictMarker.markTime=377265, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=457039, ConflictIdSorter.topsortTime=64598, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4381626, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=190212725, DefaultDependencyCollector.transformTime=6253948}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=481361, ConflictMarker.markTime=202647, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=235440, ConflictIdSorter.topsortTime=44209, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4579613, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=179780339, DefaultDependencyCollector.transformTime=5698787}
 [[1;36mDEBUG[m] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
 [[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
 [[1;36mDEBUG[m]    org.apache.maven:maven-project:jar:2.0.6:compile
@@ -405,7 +406,7 @@ OS name: "linux", version: "4.13.0-38-generic", arch: "amd64", family: "unix"
 [[1;36mDEBUG[m]   (s) overwrite = false
 [[1;36mDEBUG[m]   (f) project = MavenProject: com:BabySplash:rev1 @ /home/zeek/git_repo/baby-smash-2/quick/pom.xml
 [[1;36mDEBUG[m]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/zeek/git_repo/baby-smash-2/quick/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
-[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7308ffff
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@4bafe935
 [[1;36mDEBUG[m]   (f) supportMultiLineFiltering = false
 [[1;36mDEBUG[m]   (f) useBuildFilters = true
 [[1;36mDEBUG[m]   (s) useDefaultDelimiters = true
@@ -421,7 +422,7 @@ includes []
 [[1;36mDEBUG[m] no use filter components
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=1449804, ConflictMarker.markTime=510929, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=459382, ConflictIdSorter.topsortTime=109190, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3843743, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=313779077, DefaultDependencyCollector.transformTime=6409152}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=1260762, ConflictMarker.markTime=575619, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=489188, ConflictIdSorter.topsortTime=112503, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4282924, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=365358407, DefaultDependencyCollector.transformTime=6756873}
 [[1;36mDEBUG[m] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
 [[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
 [[1;36mDEBUG[m]    org.apache.maven:maven-artifact:jar:2.0.9:compile
@@ -495,8 +496,8 @@ includes []
 [[1;36mDEBUG[m]   (f) target = 1.7
 [[1;36mDEBUG[m]   (f) useIncrementalCompilation = true
 [[1;36mDEBUG[m]   (f) verbose = false
-[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@7308ffff
-[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7308ffff
+[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@4bafe935
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@4bafe935
 [[1;36mDEBUG[m] -- end configuration --
 [[1;36mDEBUG[m] Using compiler 'javac'.
 [[1;36mDEBUG[m] Source directories: [/home/zeek/git_repo/baby-smash-2/quick/src/main/java]
@@ -538,7 +539,7 @@ includes []
 [[1;36mDEBUG[m]   (s) overwrite = false
 [[1;36mDEBUG[m]   (f) project = MavenProject: com:BabySplash:rev1 @ /home/zeek/git_repo/baby-smash-2/quick/pom.xml
 [[1;36mDEBUG[m]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/zeek/git_repo/baby-smash-2/quick/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
-[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7308ffff
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@4bafe935
 [[1;36mDEBUG[m]   (f) supportMultiLineFiltering = false
 [[1;36mDEBUG[m]   (f) useBuildFilters = true
 [[1;36mDEBUG[m]   (s) useDefaultDelimiters = true
@@ -558,7 +559,7 @@ includes []
 [[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
 [[1;36mDEBUG[m]   (f) basedir = /home/zeek/git_repo/baby-smash-2/quick
 [[1;36mDEBUG[m]   (f) buildDirectory = /home/zeek/git_repo/baby-smash-2/quick/target
-[[1;36mDEBUG[m]   (f) classpathElements = [/home/zeek/git_repo/baby-smash-2/quick/target/test-classes, /home/zeek/git_repo/baby-smash-2/quick/target/classes, /home/zeek/.m2/repository/uk/co/caprica/vlcj/3.10.1/vlcj-3.10.1.jar, /home/zeek/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar, /home/zeek/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar, /home/zeek/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar]
+[[1;36mDEBUG[m]   (f) classpathElements = [/home/zeek/git_repo/baby-smash-2/quick/target/test-classes, /home/zeek/git_repo/baby-smash-2/quick/target/classes, /home/zeek/.m2/repository/uk/co/caprica/vlcj/3.10.1/vlcj-3.10.1.jar, /home/zeek/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar, /home/zeek/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar, /home/zeek/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar, /home/zeek/.m2/repository/org/slf4j/slf4j-simple/1.6.2/slf4j-simple-1.6.2.jar]
 [[1;36mDEBUG[m]   (f) compileSourceRoots = [/home/zeek/git_repo/baby-smash-2/quick/src/test/java]
 [[1;36mDEBUG[m]   (f) compilerId = javac
 [[1;36mDEBUG[m]   (f) debug = true
@@ -577,14 +578,14 @@ includes []
 [[1;36mDEBUG[m]   (f) target = 1.7
 [[1;36mDEBUG[m]   (f) useIncrementalCompilation = true
 [[1;36mDEBUG[m]   (f) verbose = false
-[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@7308ffff
-[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7308ffff
+[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@4bafe935
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@4bafe935
 [[1;36mDEBUG[m] -- end configuration --
 [[1;36mDEBUG[m] Using compiler 'javac'.
 [[1;34mINFO[m] No sources to compile
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=723809, ConflictMarker.markTime=190110, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=342795, ConflictIdSorter.topsortTime=63838, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1860348, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=73252094, DefaultDependencyCollector.transformTime=3217782}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=875828, ConflictMarker.markTime=262085, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=517049, ConflictIdSorter.topsortTime=58744, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2116325, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=66336053, DefaultDependencyCollector.transformTime=3875851}
 [[1;36mDEBUG[m] org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4:
 [[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
 [[1;36mDEBUG[m]    org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile
@@ -647,7 +648,7 @@ snapshots: [enabled => true, update => always]
 role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test'
 ---
 [[1;36mDEBUG[m]   (s) printSummary = true
-[[1;36mDEBUG[m]   (s) projectArtifactMap = {uk.co.caprica:vlcj=uk.co.caprica:vlcj:jar:3.10.1:compile, net.java.dev.jna:jna=net.java.dev.jna:jna:jar:4.1.0:compile, net.java.dev.jna:jna-platform=net.java.dev.jna:jna-platform:jar:4.1.0:compile, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.7.10:compile}
+[[1;36mDEBUG[m]   (s) projectArtifactMap = {uk.co.caprica:vlcj=uk.co.caprica:vlcj:jar:3.10.1:compile, net.java.dev.jna:jna=net.java.dev.jna:jna:jar:4.1.0:compile, net.java.dev.jna:jna-platform=net.java.dev.jna:jna-platform:jar:4.1.0:compile, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.7.10:compile, org.slf4j:slf4j-simple=org.slf4j:slf4j-simple:jar:1.6.2:runtime}
 [[1;36mDEBUG[m]   (s) redirectTestOutputToFile = false
 [[1;36mDEBUG[m]   (s) remoteRepositories = [      id: central
       url: https://repo.maven.apache.org/maven2
@@ -671,12 +672,12 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m]   (s) useUnlimitedThreads = false
 [[1;36mDEBUG[m]   (s) workingDirectory = /home/zeek/git_repo/baby-smash-2/quick
 [[1;36mDEBUG[m]   (s) project = MavenProject: com:BabySplash:rev1 @ /home/zeek/git_repo/baby-smash-2/quick/pom.xml
-[[1;36mDEBUG[m]   (s) session = org.apache.maven.execution.MavenSession@7308ffff
+[[1;36mDEBUG[m]   (s) session = org.apache.maven.execution.MavenSession@4bafe935
 [[1;36mDEBUG[m] -- end configuration --
 [[1;34mINFO[m] No tests to run.
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=256016, ConflictMarker.markTime=128850, ConflictMarker.nodeCount=74, ConflictIdSorter.graphTime=165590, ConflictIdSorter.topsortTime=73372, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1687716, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=38348183, DefaultDependencyCollector.transformTime=2363172}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=269388, ConflictMarker.markTime=132345, ConflictMarker.nodeCount=74, ConflictIdSorter.graphTime=294879, ConflictIdSorter.topsortTime=73479, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1918325, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=35730398, DefaultDependencyCollector.transformTime=2746835}
 [[1;36mDEBUG[m] org.apache.maven.plugins:maven-jar-plugin:jar:2.4:
 [[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
 [[1;36mDEBUG[m]    org.apache.maven:maven-project:jar:2.0.6:compile
@@ -729,7 +730,7 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m]   (f) forceCreation = false
 [[1;36mDEBUG[m]   (f) outputDirectory = /home/zeek/git_repo/baby-smash-2/quick/target
 [[1;36mDEBUG[m]   (f) project = MavenProject: com:BabySplash:rev1 @ /home/zeek/git_repo/baby-smash-2/quick/pom.xml
-[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7308ffff
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@4bafe935
 [[1;36mDEBUG[m]   (f) skipIfEmpty = false
 [[1;36mDEBUG[m]   (f) useDefaultManifestFile = false
 [[1;36mDEBUG[m] -- end configuration --
@@ -749,7 +750,7 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m] adding entry META-INF/maven/com/BabySplash/pom.properties
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-assembly-plugin:2.4.1:single[m [1m(make-assembly)[m @ [36mBabySplash[0;1m ---[m
-[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=872073, ConflictMarker.markTime=322191, ConflictMarker.nodeCount=256, ConflictIdSorter.graphTime=219886, ConflictIdSorter.topsortTime=114540, ConflictIdSorter.conflictIdCount=50, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3670456, ConflictResolver.conflictItemCount=125, DefaultDependencyCollector.collectTime=228831372, DefaultDependencyCollector.transformTime=5274079}
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=1206847, ConflictMarker.markTime=397924, ConflictMarker.nodeCount=256, ConflictIdSorter.graphTime=255760, ConflictIdSorter.topsortTime=107376, ConflictIdSorter.conflictIdCount=50, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4105452, ConflictResolver.conflictItemCount=125, DefaultDependencyCollector.collectTime=231114993, DefaultDependencyCollector.transformTime=6155635}
 [[1;36mDEBUG[m] org.apache.maven.plugins:maven-assembly-plugin:jar:2.4.1:
 [[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
 [[1;36mDEBUG[m]    org.apache.maven:maven-core:jar:2.2.1:compile
@@ -830,8 +831,8 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-assembly-plugin:2.4.1:single' with basic configurator -->
 [[1;36mDEBUG[m]   (s) appendAssemblyId = true
 [[1;36mDEBUG[m]   (s) mainClass = BabySmash
-[[1;36mDEBUG[m]   (s) manifest = org.apache.maven.archiver.ManifestConfiguration@14de1901
-[[1;36mDEBUG[m]   (s) archive = org.apache.maven.archiver.MavenArchiveConfiguration@437ed416
+[[1;36mDEBUG[m]   (s) manifest = org.apache.maven.archiver.ManifestConfiguration@6a567f7b
+[[1;36mDEBUG[m]   (s) archive = org.apache.maven.archiver.MavenArchiveConfiguration@28be7fec
 [[1;36mDEBUG[m]   (f) attach = true
 [[1;36mDEBUG[m]   (s) basedir = /home/zeek/git_repo/baby-smash-2/quick
 [[1;36mDEBUG[m]   (s) descriptorRefs = [jar-with-dependencies]
@@ -869,7 +870,7 @@ snapshots: [enabled => false, update => daily]
 [[1;36mDEBUG[m]   (f) updateOnly = false
 [[1;36mDEBUG[m]   (f) useJvmChmod = false
 [[1;36mDEBUG[m]   (s) workDirectory = /home/zeek/git_repo/baby-smash-2/quick/target/assembly/work
-[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@7308ffff
+[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@4bafe935
 [[1;36mDEBUG[m]   (f) project = MavenProject: com:BabySplash:rev1 @ /home/zeek/git_repo/baby-smash-2/quick/pom.xml
 [[1;36mDEBUG[m] -- end configuration --
 [[1;36mDEBUG[m] Before assembly is interpolated:
@@ -914,20 +915,22 @@ snapshots: [enabled => false, update => daily]
 
 
 
-[[1;36mDEBUG[m] All known ContainerDescriptorHandler components: [file-aggregator, plexus, metaInf-services, metaInf-spring]
+[[1;36mDEBUG[m] All known ContainerDescriptorHandler components: [metaInf-services, file-aggregator, plexus, metaInf-spring]
 [[1;36mDEBUG[m] Dependencies for project: com:BabySplash:jar:rev1 are:
 uk.co.caprica:vlcj:jar:3.10.1:compile
+org.slf4j:slf4j-simple:jar:1.6.2:runtime
 [[1;36mDEBUG[m] Resolving project dependencies transitively.
 [[1;36mDEBUG[m] com:BabySplash:jar:rev1 (selected for null)
 [[1;36mDEBUG[m]   uk.co.caprica:vlcj:jar:3.10.1:compile (selected for compile)
 [[1;36mDEBUG[m]     net.java.dev.jna:jna:jar:4.1.0:compile (selected for compile)
 [[1;36mDEBUG[m]     net.java.dev.jna:jna-platform:jar:4.1.0:compile (selected for compile)
 [[1;36mDEBUG[m]     org.slf4j:slf4j-api:jar:1.7.10:compile (selected for compile)
+[[1;36mDEBUG[m]   org.slf4j:slf4j-simple:jar:1.6.2:runtime (selected for runtime)
+[[1;36mDEBUG[m]     org.slf4j:slf4j-api:jar:1.6.2:runtime (removed - nearer found: 1.7.10)
 [[1;36mDEBUG[m] While resolving dependencies of com:BabySplash:jar:rev1:
 [[1;36mDEBUG[m] Statistics for Scope filter [null-scope=true, compile=true, runtime=true, test=false, provided=false, system=false]
 
 [[1;36mDEBUG[m] The following scope filters were not used: 
-o Runtime
 o Test
 o Provided
 o System
@@ -1031,7 +1034,7 @@ o System
     [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:356[m)
 [[1;36mDEBUG[m] Processing DependencySet (output=/)
 [[1;36mDEBUG[m] Filtering dependency artifacts WITHOUT transitive dependency path information.
-[[1;36mDEBUG[m] Adding 5 dependency artifacts.
+[[1;36mDEBUG[m] Adding 6 dependency artifacts.
 [[1;36mDEBUG[m] Adding dependency artifact uk.co.caprica:vlcj:jar:3.10.1.
 [[1;36mDEBUG[m] Unpacking artifact: uk.co.caprica:vlcj:jar:3.10.1 to assembly location: .
 [[1;36mDEBUG[m] Unpacking artifact contents for: uk.co.caprica:vlcj:jar:3.10.1:compile to: 
@@ -1072,6 +1075,16 @@ none
 none
 
 [[1;36mDEBUG[m] Adding archived file-set in: /home/zeek/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar to archive location: 
+[[1;36mDEBUG[m] Adding dependency artifact org.slf4j:slf4j-simple:jar:1.6.2.
+[[1;36mDEBUG[m] Unpacking artifact: org.slf4j:slf4j-simple:jar:1.6.2 to assembly location: .
+[[1;36mDEBUG[m] Unpacking artifact contents for: org.slf4j:slf4j-simple:jar:1.6.2:runtime to: 
+[[1;36mDEBUG[m] includes:
+**/*
+
+[[1;36mDEBUG[m] excludes:
+none
+
+[[1;36mDEBUG[m] Adding archived file-set in: /home/zeek/.m2/repository/org/slf4j/slf4j-simple/1.6.2/slf4j-simple-1.6.2.jar to archive location: 
 [[1;36mDEBUG[m] Adding dependency artifact com:BabySplash:jar:rev1.
 [[1;36mDEBUG[m] Unpacking artifact: com:BabySplash:jar:rev1 to assembly location: .
 [[1;36mDEBUG[m] Unpacking artifact contents for: com:BabySplash:jar:rev1 to: 
@@ -1082,6 +1095,7 @@ none
 none
 
 [[1;36mDEBUG[m] Adding archived file-set in: /home/zeek/git_repo/baby-smash-2/quick/target/BabySplash-rev1.jar to archive location: 
+[[1;36mDEBUG[m] META-INF/MANIFEST.MF already added, skipping
 [[1;36mDEBUG[m] META-INF/MANIFEST.MF already added, skipping
 [[1;36mDEBUG[m] META-INF/MANIFEST.MF already added, skipping
 [[1;36mDEBUG[m] META-INF/MANIFEST.MF already added, skipping
@@ -2369,6 +2383,16 @@ none
 [[1;36mDEBUG[m] adding entry META-INF/maven/org.slf4j/slf4j-api/pom.xml
 [[1;36mDEBUG[m] adding entry META-INF/maven/org.slf4j/slf4j-api/pom.properties
 [[1;36mDEBUG[m] META-INF/MANIFEST.MF already added, skipping
+[[1;36mDEBUG[m] adding directory org/slf4j/impl/
+[[1;36mDEBUG[m] adding entry org/slf4j/impl/SimpleLogger.class
+[[1;36mDEBUG[m] adding entry org/slf4j/impl/SimpleLoggerFactory.class
+[[1;36mDEBUG[m] adding entry org/slf4j/impl/StaticLoggerBinder.class
+[[1;36mDEBUG[m] adding entry org/slf4j/impl/StaticMarkerBinder.class
+[[1;36mDEBUG[m] adding entry org/slf4j/impl/StaticMDCBinder.class
+[[1;36mDEBUG[m] adding directory META-INF/maven/org.slf4j/slf4j-simple/
+[[1;36mDEBUG[m] adding entry META-INF/maven/org.slf4j/slf4j-simple/pom.xml
+[[1;36mDEBUG[m] adding entry META-INF/maven/org.slf4j/slf4j-simple/pom.properties
+[[1;36mDEBUG[m] META-INF/MANIFEST.MF already added, skipping
 [[1;36mDEBUG[m] adding entry Cntainer.class
 [[1;36mDEBUG[m] adding entry Tmr.class
 [[1;36mDEBUG[m] adding entry KeyBoardListen.class
@@ -2381,7 +2405,7 @@ none
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time: 4.594 s
-[[1;34mINFO[m] Finished at: 2018-04-10T22:39:00-04:00
+[[1;34mINFO[m] Total time: 4.930 s
+[[1;34mINFO[m] Finished at: 2018-04-10T22:46:52-04:00
 [[1;34mINFO[m] Final Memory: 19M/65M
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
