@@ -32,7 +32,7 @@ public class BabySmash extends JFrame{
                 } else { //original code here.
 		boolean ss = true;
 		if(ss){
-			setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);//EXIT_ON_CLOSE
+			setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);//EXIT_ON_CLOSE
 			isFullScreen = device.isFullScreenSupported();
 
 		}

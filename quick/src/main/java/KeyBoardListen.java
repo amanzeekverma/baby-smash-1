@@ -33,7 +33,9 @@ public class KeyBoardListen extends java.awt.event.KeyAdapter{
 
         public void keyPressed(KeyEvent e){
                //System.out.println("Check Press: "+e.getExtendedKeyCode());
-               if (e.getExtendedKeyCode()==KeyEvent.VK_ALT || e.getExtendedKeyCode()==KeyEvent.VK_TAB){
+               if (e.getExtendedKeyCode()==KeyEvent.VK_ALT || e.getExtendedKeyCode()==KeyEvent.VK_TAB || e.getExtendedKeyCode() == KeyEvent.VK_WINDOWS 
+                                      || e.getExtendedKeyCode() == KeyEvent.VK_F4 ){
+
                    try {
                      Robot r = new Robot();
                      r.keyPress(KeyEvent.VK_ESCAPE); 
