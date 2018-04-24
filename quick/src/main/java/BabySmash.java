@@ -20,6 +20,8 @@ public class BabySmash extends JFrame{
 	public static final String EXIT_STR =  "exitnow";
 	public static final String HLP_STR = "Baby smash. To exit, type ) :" + EXIT_STR;
 	Cntainer conty;
+
+        private static boolean isAdminMode = false;
         
 	public BabySmash (GraphicsDevice device){
 		super(device.getDefaultConfiguration());
@@ -56,6 +58,13 @@ public class BabySmash extends JFrame{
 		//b.add
 		c.add(b);
 		b.setBounds(20,12,40,40);
+               
+                if (this.isAdminMode){
+                   JButton emergencyExitB = new JButton("Emergency Exit");
+                   c.add(emergencyExitB);
+                   emergencyExitB.setBounds(1024,800,200,50);   
+                   emergencyExitB.addActionListener(e -> System.exit(0));
+                }
 
 		conty = new Cntainer(this);
 		c.add(conty);
@@ -84,6 +93,11 @@ public class BabySmash extends JFrame{
  	}
 
  public static void main(String[] args) {
+        if (args.length > 0){
+           if (args[0].equals("admin")){
+              isAdminMode = true;
+           }
+        }
         GraphicsEnvironment env = GraphicsEnvironment.
             getLocalGraphicsEnvironment();
         GraphicsDevice[] devices = env.getScreenDevices();
