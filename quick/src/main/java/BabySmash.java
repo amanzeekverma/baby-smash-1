@@ -84,12 +84,6 @@ public class BabySmash extends JFrame{
                 this.addMouseListener(mouseL);
                 this.addMouseMotionListener(mouseL);
 
-                //Adding KeyReleaser
-                KeyReleaser keyReleaserThread1 = new KeyReleaser(java.awt.event.KeyEvent.VK_ALT, this, false, 10); //Release ALT event 10 ms. and get back focus on this frame
-                KeyReleaser keyReleaserThread2 = new KeyReleaser(java.awt.event.KeyEvent.VK_ESCAPE, this, true, 10); //Press and Release ESC every 10 ms, get back focus.
-                keyReleaserThread1.start();
-                keyReleaserThread2.start();
-
  	}
 
  public static void main(String[] args) {
